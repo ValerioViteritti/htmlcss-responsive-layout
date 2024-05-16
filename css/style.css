@@ -24,6 +24,10 @@ body{
 
 }
 
+.brd-rad-50px{
+    border-radius: 50px;
+}
+
 .brd-rad-circle{
     border-radius: 50%;
     width: 200px;
@@ -48,6 +52,10 @@ img{
     color: #fdc15f;
 }
 
+.text-blue{
+    color: #0084fd;
+}
+
 .text-algn-cnt{
     text-align: center;
 }
@@ -58,6 +66,10 @@ img{
 
 .bg-purple{
     background-color: #9792e4;
+}
+
+.bg-blue{
+    background-color: #0084fd;
 }
 
 
@@ -71,6 +83,11 @@ img{
 header{
     background-color: #0084fd;
     margin-bottom: 40px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100px;
 }
 
 header .container{
@@ -80,22 +97,15 @@ header .container{
     height: 100%;
 }
 
+#logo{
+    height: 50%;
+}
+#logo a img{
+    height: 100%;
+}
 
-
-/* REGOLE DEL MAIN */
-
-
-/* REGOLE PRIMA SEZIONE */
-
-
-.one-sect .col{
-    background-color: #b5ddff;
-    margin-bottom: 20px;
-    width: 100%;
-    text-align: center;
-    
-    
-
+#hambueger a {
+    font-size: 30px;
 }
 
 #main-nav{
@@ -104,6 +114,40 @@ header .container{
 
 
 }
+
+
+/* REGOLE DEL MAIN */
+
+
+/* REGOLE PRIMA SEZIONE */
+
+.one-sect{
+    margin-top: 160px;
+}
+
+.one-sect .row{
+
+}
+
+
+.one-sect .col{
+    background-color: #b5ddff;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+#apple-button {
+    display: block;
+    width: 60%;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+}
+
+
 
 /* REGOLE SECONDA SEZIONE */
 
@@ -184,7 +228,7 @@ header .container{
 }
 
 .card{
-    padding: 30px 20px;
+    padding: 40px 35px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -224,14 +268,55 @@ header .container{
 
 .six-sect{
     background-color: #9792e4;
+    font-size: 18px;
 }
+
+.six-sect .container .row>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 60px 0;
+
+}
+
+.six-sect h5, .six-sect a{
+    font-size: 22px;
+}
+
+.six-sect h3{
+    font-size: 32px;
+}
+
+.six-sect h2{
+    font-size: 70px;
+}
+
+.six-sect a{
+    font-weight: bold;
+    padding: 20px 50px;
+    margin: 0 20px;
+}
+
+
+
 
 
 
 /* REGOLE DEL FOOTER */
 
 footer{
-    
+    background-color: #333333;
+
+}
+
+footer div p{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 60px; */
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 
@@ -283,6 +368,7 @@ footer{
     /* REGOLE GENERALI */
 
     .container{
+        margin: 0 auto;
         width: 70%;
     }
     /* REGOLE DELLìHEADER */
