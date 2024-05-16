@@ -6,11 +6,15 @@
     text-decoration: none;
     /* DEBUG */
     border: 1px dashed greenyellow;
-    min-height: 100px;
-    min-width: 100px;
+    
+}
+
+body{
+    font-family: 'PT sans',sans-serif;
 }
 
 .container{
+    margin: 0 40px;
 
 }
 
@@ -19,6 +23,46 @@
     border-radius: 25px;
 
 }
+
+.brd-rad-circle{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+}
+
+img{
+    width: 100%;
+
+}
+
+.text-white{
+    color: white;
+}
+
+.text-purple{
+    color: #9792e4;
+}
+
+#text-yellow{
+    color: #fdc15f;
+}
+
+.text-algn-cnt{
+    text-align: center;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-purple{
+    background-color: #9792e4;
+}
+
+
+
+
 
 
 
@@ -41,13 +85,14 @@ header .container{
 /* REGOLE DEL MAIN */
 
 
-/* PRIMA SEZIONE */
+/* REGOLE PRIMA SEZIONE */
 
 
 .one-sect .col{
     background-color: #b5ddff;
     margin-bottom: 20px;
     width: 100%;
+    text-align: center;
     
     
 
@@ -60,32 +105,121 @@ header .container{
 
 }
 
-/* SECONDA SEZIONE */
+/* REGOLE SECONDA SEZIONE */
 
 
 .two-sect{
     background-color: #9792e4;
 }
 
+.two-sect .col{
+    text-align: center;
+}
 
-/* TERZA SEZIONE */
 
 
 
 
-/* QUARTA SEZIONE */
+
+
+
+
+
+
+
+
+/* REGOLE TERZA SEZIONE */
+
+.three-sect .container div{
+    margin: 0 auto;
+}
+
+.three-sect .container div div, .three-sect .container div span{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#img1{
+    background-image: url("../img/testimonial1.jpg");
+    background-size: cover;
+    
+   
+    
+}
+#img2{
+    background-image: url("../img/testimonial2.jpg");
+    background-size: cover;
+   
+    
+}
+#img3{
+    background-image: url("../img/testimonial3.jpg");
+    background-size: cover;
+   
+    
+}
+
+
+
+
+/* REGOLE QUARTA SEZIONE */
 
 .four-sect{
     background-color: #9792e4;
 }
 
+.four-sect .col{
+    margin-bottom: 35px;
+}
+
+.four-sect .col:last-child{
+    margin-bottom: 70px;
+}
 
 
-/* QUINTA SEZIONE */
+.four-sect .container>h2{
+    font-size: 40px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.card{
+    padding: 30px 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    
+
+}
+.card h2{
+    font-size: 50px;
+}
+
+.card h3{
+    font-size: 26px;
+}
 
 
 
-/* SESTA SEZIONE */
+/* REGOLE QUINTA SEZIONE */
+
+
+
+
+
+
+#img-about-us{
+    background-image: url(../img/about.jpg);
+    background-size: cover;
+    /* debug */
+    width: 100%;
+    min-height: 200px;
+}
+
+
+
+/* REGOLE SESTA SEZIONE */
 
 
 .six-sect{
@@ -94,7 +228,11 @@ header .container{
 
 
 
+/* REGOLE DEL FOOTER */
 
+footer{
+    
+}
 
 
 
