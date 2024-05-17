@@ -5,7 +5,7 @@
     box-sizing: border-box;
     text-decoration: none;
     /* DEBUG */
-    border: 1px dashed greenyellow;
+    /* border: 1px dashed greenyellow; */
     
 }
 
@@ -30,8 +30,8 @@ body{
 
 .brd-rad-circle{
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 280px;
 
 }
 
@@ -121,7 +121,7 @@ header .container{
 
 /* REGOLE PRIMA SEZIONE */
 
-.one-sect{
+.feature{
     margin-top: 160px;
 }
 
@@ -136,10 +136,19 @@ header .container{
 
 }
 
-.one-sect .col{
+.feature .col{
     background-color: #b5ddff;
     margin-bottom: 20px;
     width: 100%;
+    text-align: center;
+    
+    
+}
+
+.feature .colx2{
+    background-color: #b5ddff;
+    margin-bottom: 20px;
+    /* width: 100%; */
     text-align: center;
     
     
@@ -149,11 +158,11 @@ header .container{
     display: block;
     width: 92%;
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     letter-spacing: 3px;
     word-spacing: 2px;
-    padding: 10px 45px; 
+    padding: 16px 45px; 
 }
 
 #img-phone{
@@ -162,15 +171,15 @@ header .container{
 }
 
 .card-one-sect h3{
-    font-size: 26px;
+    font-size: 34px;
     text-align: center;
 }
 
 .card-one-sect p{
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     color: #546777;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 .card-minor{
@@ -178,7 +187,7 @@ header .container{
     display: flex;
     flex-direction: column;
     gap: 35px;
-    font-size: 22px;
+    font-size: 26px;
     color: #586c7c;
     font-weight: bold;
     line-height: 34px;
@@ -222,10 +231,11 @@ header .container{
 
 .strategic h2{
     font-size: 44px;
+    text-align: start;
 }
 
 .strategic p{
-    font-size: 22px;
+    font-size: 24px;
     line-height: 34px;
     margin: 60px 0 40px;
     text-align: start;
@@ -278,14 +288,68 @@ header .container{
 
 /* REGOLE TERZA SEZIONE */
 
-.testimonials .container div{
-    margin: 0 auto;
+.testimonials .container div#img1, .testimonials .container div#img2,.testimonials .container div#img3{
+    margin: -5px auto;
 }
 
-.testimonials .container div div, .testimonials .container div span{
-    margin-top: 25px;
-    margin-bottom: 25px;
+.testimonials .row>div{
+    margin: 50px 0;
 }
+
+.testimonials .row>div:last-child{
+    margin-bottom: 140px;
+}
+
+.testimonials h5{
+    font-size: 26px;
+    margin-top: 30px;
+    color: #5c5c5c;
+    font-weight: normal;
+}
+
+.testimonials h2{
+    font-size: 48px;
+    margin: 40px 0;
+}
+
+.testimonials .text-algn-cnt>p{
+    font-size: 28px;
+    line-height: 50px;
+    margin-bottom: 20px;
+
+}
+
+.card-purple{
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    
+}
+
+.card-purple p{
+    font-size: 28px;
+    line-height: 44px;
+}
+
+.card-purple p i{
+    font-size: 120%;
+}
+
+.name-testimonials{
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.card-purple-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
 
 
 
@@ -320,27 +384,27 @@ header .container{
 
 /* REGOLE QUARTA SEZIONE */
 
-.four-sect{
+.benefits {
     background-color: #9792e4;
 }
 
-.four-sect .col{
+.benefits .col{
     margin-bottom: 35px;
 }
 
-.four-sect .col:last-child{
+.benefits .col:last-child{
     margin-bottom: 70px;
 }
 
 
-.four-sect .container>h2{
-    font-size: 40px;
-    margin-top: 70px;
-    margin-bottom: 70px;
+.benefits .container>h2{
+    font-size: 50px;
+    margin: 100px 0;
+    
 }
 
 .card{
-    padding: 40px 35px;
+    padding: 40px 40px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -349,16 +413,56 @@ header .container{
 
 }
 .card h2{
-    font-size: 50px;
+    font-size: 70px;
+    margin-bottom: 20px;
 }
 
 .card h3{
-    font-size: 26px;
+    font-size: 36px;
+}
+
+.card p{
+    font-size: 24px;
+    line-height: 40px;
+    color: #586c7c;
+}
+
+.card a{
+    width: 55%;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
 }
 
 
 
 /* REGOLE QUINTA SEZIONE */
+
+.about-us .row{
+    margin: 40px 0;
+}
+
+.about-us h2{
+    font-size: 70px;
+    margin: 60px 0;
+
+}
+
+.about-us p{
+    font-size: 27px;
+    line-height: 60px;
+    margin-bottom: 70px;
+}
+
+
 
 
 
@@ -368,9 +472,31 @@ header .container{
 #img-about-us{
     background-image: url(../img/about.jpg);
     background-size: cover;
-    /* debug */
-    width: 100%;
-    min-height: 200px;
+    border-radius: 50%;
+    width: 270px;
+    min-height: 270px;
+
+
+
+}
+
+#img-about-us>div {
+    font-size: 1000%;
+    color: #9792e4;
+    float: right;
+
+}
+
+.about-us h3{
+    font-size: 44px;
+    margin: 30px 0;
+}
+.about-us .col:last-child{
+    margin-bottom: 70px;
+}
+.about-us .col a{
+    font-size: 24px;
+    padding: 10px 20px;
 }
 
 
@@ -378,36 +504,47 @@ header .container{
 /* REGOLE SESTA SEZIONE */
 
 
-.six-sect{
+.gets-started{
     background-color: #9792e4;
-    font-size: 18px;
-}
-
-.six-sect .container .row>div{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 30px;
-    margin: 60px 0;
-
-}
-
-.six-sect h5, .six-sect a{
     font-size: 22px;
 }
 
-.six-sect h3{
-    font-size: 32px;
+.gets-started .row{
+    margin: 40px 0;
 }
 
-.six-sect h2{
-    font-size: 70px;
+.gets-started .container .row>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 35px;
+    margin: 50px 0;
+
+}
+.gets-started h5{
+    color: #d6d6f4;
 }
 
-.six-sect a{
+.gets-started h5, .gets-started a{
+    font-size: 28px;
+    letter-spacing: 3px;
+    font-weight: normal;
+    
+}
+
+.gets-started h3{
+    font-size: 40px;
+}
+
+.gets-started h2{
+    font-size: 90px;
+}
+
+.gets-started a{
     font-weight: bold;
-    padding: 20px 50px;
-    margin: 0 20px;
+    padding: 30px 50px;
+    margin: 20px 20px;
+
 }
 
 
@@ -428,7 +565,11 @@ footer div p{
     justify-content: space-between;
     gap: 60px; */
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+}
+
+footer p{
+    font-size: 20px;
 }
 
 
@@ -449,7 +590,7 @@ footer div p{
 
 @media screen and (min-width:768px){
 
-    .one-sect .row{
+    .feature .row{
         display: flex;
         /* flex-wrap: wrap; */
         gap: 10px;
@@ -457,16 +598,77 @@ footer div p{
 
     }
 
-    .one-sect .col{
-        width: calc((100%/3)-10px);
+    .feature .col{
+        width: calc((100%/3));
 
 
     }
 
-    .one-sect .colx2{
-        width: calc(((100%/3)*2)-10px);
+    .feature .colx2{
+        width: calc(((100%/3)*2));
+        background-color: #b5ddff;
+        margin-bottom: 20px;
+        text-align: center;
 
+
+
+
+        /* 2 */
+
+    }    
+
+    .strategic h2{
+        font-size: 90px;
+        text-align: start;
     }
+
+    /* 3 */
+
+
+    .card-purple{
+        padding: 50px 30px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        text-align: center;
+        
+    }
+
+    .card-purple-text{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 30px;
+    }
+
+    .card-purple-text p{
+        text-align: initial;
+
+        margin-top: 30px;
+    }
+
+
+
+    /* 4 */
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     
 }
 
