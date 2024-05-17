@@ -168,6 +168,7 @@ header .container{
 #img-phone{
     width: 90%;
     padding-left: 20px;
+    vertical-align: bottom;
 }
 
 .card-one-sect h3{
@@ -386,6 +387,7 @@ header .container{
 
 .benefits {
     background-color: #9792e4;
+    height: 4100px;
 }
 
 .benefits .col{
@@ -396,8 +398,12 @@ header .container{
     margin-bottom: 70px;
 }
 
+#space{
+    height: 1px;
+}
 
-.benefits .container>h2{
+
+#benefits-h2{
     font-size: 50px;
     margin: 100px 0;
     
@@ -449,42 +455,26 @@ header .container{
 .about-us .row{
     margin: 40px 0;
 }
-
 .about-us h2{
     font-size: 70px;
     margin: 60px 0;
-
 }
-
 .about-us p{
     font-size: 27px;
     line-height: 60px;
     margin-bottom: 70px;
 }
-
-
-
-
-
-
-
-
 #img-about-us{
     background-image: url(../img/about.jpg);
     background-size: cover;
     border-radius: 50%;
     width: 270px;
     min-height: 270px;
-
-
-
 }
-
 #img-about-us>div {
     font-size: 1000%;
     color: #9792e4;
     float: right;
-
 }
 
 .about-us h3{
@@ -507,22 +497,24 @@ header .container{
 .gets-started{
     background-color: #9792e4;
     font-size: 22px;
+    height: 850px;
 }
 
-.gets-started .row{
+/* .gets-started .row{
     margin: 40px 0;
-}
+} */
 
 .gets-started .container .row>div{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 35px;
-    margin: 50px 0;
+    /* margin: 50px 0; */
 
 }
 .gets-started h5{
     color: #d6d6f4;
+    margin-top: 80px;
 }
 
 .gets-started h5, .gets-started a{
@@ -538,6 +530,11 @@ header .container{
 
 .gets-started h2{
     font-size: 90px;
+}
+
+.gets-started p{
+    font-size: 24px;
+    line-height: 40px;
 }
 
 .gets-started a{
@@ -556,20 +553,23 @@ header .container{
 
 footer{
     background-color: #333333;
+}
 
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    
 }
 
 footer div p{
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 60px; */
-    margin-top: 40px;
-    margin-bottom: 50px;
+    margin: 70px 0;
+    
 }
 
 footer p{
     font-size: 20px;
+    padding: 0 20px;
 }
 
 
@@ -652,7 +652,45 @@ footer p{
 
     /* 4 */
 
-    
+    .benefits .row{
+        /* width: calc((100/2)-50px); */
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        
+        
+
+    }
+
+    .benefits .col{
+        width: calc(50% - 40px);
+        margin-bottom: 0px;
+    }
+
+
+    .benefits .col:nth-last-child(-n + 2){
+        margin-bottom: 70px;
+    }
+
+
+    /* 5 */
+
+
+    .about-us .row{
+        display: flex;
+        gap: 100px;
+    }
+
+    .about-us .col{
+        width: calc(10%-100px);
+
+    }
+
+    .about-us .col2{
+        width: calc(45%-100px);
+    }
+
+
 
 
 
