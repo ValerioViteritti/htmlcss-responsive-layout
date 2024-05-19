@@ -1,85 +1,69 @@
-/* REGOLE GENERALI */
+/*REGOLE GENERALI*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    /* DEBUG */
-    /* border: 1px dashed greenyellow; */
-    
 }
-
 body{
     font-family: 'PT sans',sans-serif;
 }
-
 .container{
     margin: 0 40px;
-
 }
-
-
 .brd-rad-25px{
     border-radius: 25px;
-
 }
-
 .brd-rad-50px{
     border-radius: 50px;
 }
-
 .brd-rad-circle{
     border-radius: 50%;
     width: 280px;
     height: 280px;
-
 }
-
 img{
     width: 100%;
-
 }
-
 .text-white{
     color: white;
 }
-
 .text-purple{
     color: #9792e4;
 }
-
 #text-yellow{
     color: #fdc15f;
 }
-
 .text-blue{
     color: #0084fd;
 }
-
 .text-algn-cnt{
     text-align: center;
 }
-
 .bg-white{
     background-color: white;
 }
-
 .bg-purple{
     background-color: #9792e4;
 }
-
 .bg-blue{
     background-color: #0084fd;
 }
-
-
-
-
-
-
-
-/* REGOLE DELL'HEADER */
-
+/* //..............................................................................
+//.HHHH...HHHH..EEEEEEEEEEE....AAAAA.....ADDDDDDDD....DEEEEEEEEEE.ERRRRRRRRR....
+//.HHHH...HHHH..EEEEEEEEEEE....AAAAA.....ADDDDDDDDD...DEEEEEEEEEE.ERRRRRRRRRR...
+//.HHHH...HHHH..EEEEEEEEEEE...AAAAAA.....ADDDDDDDDDD..DEEEEEEEEEE.ERRRRRRRRRR...
+//.HHHH...HHHH..EEEE..........AAAAAAA....ADDD...DDDD..DEEE........ERRR...RRRRR..
+//.HHHH...HHHH..EEEE.........AAAAAAAA....ADDD....DDDD.DEEE........ERRR...RRRRR..
+//.HHHHHHHHHHH..EEEEEEEEEE...AAAAAAAA....ADDD....DDDD.DEEEEEEEEE..ERRRRRRRRRR...
+//.HHHHHHHHHHH..EEEEEEEEEE...AAAA.AAAA...ADDD....DDDD.DEEEEEEEEE..ERRRRRRRRRR...
+//.HHHHHHHHHHH..EEEEEEEEEE..EAAAAAAAAA...ADDD....DDDD.DEEEEEEEEE..ERRRRRRR......
+//.HHHH...HHHH..EEEE........EAAAAAAAAAA..ADDD....DDDD.DEEE........ERRR.RRRR.....
+//.HHHH...HHHH..EEEE........EAAAAAAAAAA..ADDD...DDDDD.DEEE........ERRR..RRRR....
+//.HHHH...HHHH..EEEEEEEEEEEEEAA....AAAA..ADDDDDDDDDD..DEEEEEEEEEE.ERRR..RRRRR...
+//.HHHH...HHHH..EEEEEEEEEEEEEAA.....AAAA.ADDDDDDDDD...DEEEEEEEEEE.ERRR...RRRRR..
+//.HHHH...HHHH..EEEEEEEEEEEEEAA.....AAAA.ADDDDDDDD....DEEEEEEEEEE.ERRR....RRRR..
+//.............................................................................. */
 header{
     background-color: #0084fd;
     margin-bottom: 40px;
@@ -89,42 +73,51 @@ header{
     left: 0;
     height: 100px;
 }
-
 header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
 }
-
 #logo{
     height: 50%;
 }
 #logo a img{
     height: 100%;
 }
-
 #hambueger a {
     font-size: 30px;
 }
-
 #main-nav{
     display: none;
-
-
-
 }
-
-
-/* REGOLE DEL MAIN */
-
-
+#main-nav a{
+    color: white;
+    margin-left: 20px;
+}
+#main-nav a:last-child{
+    color: black;
+    padding: 5px 15px;
+}
+/* //................................................
+//.MMMMMM...MMMMMM....AAAAA....IIIII.NNNN...NNNN..
+//.MMMMMM...MMMMMM....AAAAA....IIIII.NNNNN..NNNN..
+//.MMMMMM...MMMMMM...AAAAAA....IIIII.NNNNN..NNNN..
+//.MMMMMMM.MMMMMMM...AAAAAAA...IIIII.NNNNNN.NNNN..
+//.MMMMMMM.MMMMMMM..AAAAAAAA...IIIII.NNNNNN.NNNN..
+//.MMMMMMM.MMMMMMM..AAAAAAAA...IIIII.NNNNNNNNNNN..
+//.MMMMMMMMMMMMMMM..AAAA.AAAA..IIIII.NNNNNNNNNNN..
+//.MMMMMMMMMMMMMMM.AAAAAAAAAA..IIIII.NNNNNNNNNNN..
+//.MMMMMMMMMMMMMMM.AAAAAAAAAAA.IIIII.NNNNNNNNNNN..
+//.MMMM.MMMMM.MMMM.AAAAAAAAAAA.IIIII.NNNN.NNNNNN..
+//.MMMM.MMMMM.MMMMAAAA....AAAA.IIIII.NNNN..NNNNN..
+//.MMMM.MMMMM.MMMMAAAA.....AAAAIIIII.NNNN..NNNNN..
+//.MMMM.MMMMM.MMMMAAAA.....AAAAIIIII.NNNN...NNNN..
+//................................................ */
 /* REGOLE PRIMA SEZIONE */
-
 .feature{
     margin-top: 160px;
 }
-
 .card-one-sect{
     padding: 40px 35px 0 35px;
     text-align: start;
@@ -133,27 +126,19 @@ header .container{
     flex-direction: column;
     gap: 40px;
     margin-bottom: 30px;
-
 }
-
 .feature .col{
     background-color: #b5ddff;
     margin-bottom: 20px;
     width: 100%;
-    text-align: center;
-    
-    
+    text-align: center; 
 }
-
 .feature .colx2{
     background-color: #b5ddff;
     margin-bottom: 20px;
     /* width: 100%; */
     text-align: center;
-    
-    
 }
-
 #apple-button {
     display: block;
     width: 92%;
@@ -164,25 +149,21 @@ header .container{
     word-spacing: 2px;
     padding: 16px 45px; 
 }
-
 #img-phone{
     width: 90%;
     padding-left: 20px;
     vertical-align: bottom;
 }
-
 .card-one-sect h3{
     font-size: 34px;
     text-align: center;
 }
-
 .card-one-sect p{
     font-size: 24px;
     font-weight: bold;
     color: #546777;
     line-height: 40px;
 }
-
 .card-minor{
     padding: 35px;
     display: flex;
@@ -191,66 +172,42 @@ header .container{
     font-size: 26px;
     color: #586c7c;
     font-weight: bold;
-    line-height: 34px;
-    
+    line-height: 34px; 
 }
-
 .card-minor h3{
     font-size: 34px;
 }
-
 .card-minor div{
     font-size: 480%;
 }
-
-
-
-
-
-
-
-
-
-
-
 /* REGOLE SECONDA SEZIONE */
-
-
 .strategic{
     background-color: #9792e4;
     padding: 0 0 80px;
 }
-
 .strategic .col{
     text-align: center;
 }
-
 #img-str-1{
     margin: 90px 0;
 }
-
-
 .strategic h2{
     font-size: 44px;
     text-align: start;
 }
-
 .strategic p{
     font-size: 24px;
     line-height: 34px;
     margin: 60px 0 40px;
     text-align: start;
 }
-
 .card-white{
     padding: 50px 30px;
 }
-
 .strategic h3{
     font-size: 34px;
     margin-top: 30px;
 }
-
 #arrow-text p{
     font-size: 26px;
     font-style: oblique;
@@ -258,9 +215,6 @@ header .container{
     line-height: 40px;
     margin-top: 40px;
 }
-
-
-
 .circle{
     background-color: #9792e4;
     width: 70px;
@@ -268,171 +222,112 @@ header .container{
     margin: 0  auto;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center; 
 }
-
 .circle i{
     font-size: 170%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 /* REGOLE TERZA SEZIONE */
-
 .testimonials .container div#img1, .testimonials .container div#img2,.testimonials .container div#img3{
     margin: -5px auto;
 }
-
 .testimonials .row>div{
     margin: 50px 0;
 }
-
 .testimonials .row>div:last-child{
     margin-bottom: 140px;
 }
-
 .testimonials h5{
     font-size: 26px;
     margin-top: 30px;
     color: #5c5c5c;
     font-weight: normal;
 }
-
 .testimonials h2{
     font-size: 48px;
     margin: 40px 0;
 }
-
 .testimonials .text-algn-cnt>p{
     font-size: 28px;
     line-height: 50px;
     margin-bottom: 20px;
 
 }
-
 .card-purple{
     padding: 50px 30px;
     display: flex;
     flex-direction: column;
     gap: 30px;
     text-align: center;
-    
 }
-
 .card-purple p{
     font-size: 28px;
     line-height: 44px;
 }
-
 .card-purple p i{
     font-size: 120%;
 }
-
 .name-testimonials{
     font-size: 28px;
     font-weight: bold;
     letter-spacing: 2px;
 }
-
 .card-purple-text{
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-
-
-
-
-
-
-
 #img1{
     background-image: url("../img/testimonial1.jpg");
     background-size: cover;
-    background-position: center;
-    
-   
-    
+    background-position: center;   
 }
 #img2{
     background-image: url("../img/testimonial2.jpg");
     background-size: cover;
-    background-position: center;
-    
-   
-    
+    background-position: center;  
 }
 #img3{
     background-image: url("../img/testimonial3.jpg");
     background-size: cover;
     background-position: center;
-   
-    
 }
-
-
-
-
 /* REGOLE QUARTA SEZIONE */
-
 .benefits {
     background-color: #9792e4;
-    height: 4100px;
 }
-
 .benefits .col{
     margin-bottom: 35px;
 }
-
 .benefits .col:last-child{
     margin-bottom: 70px;
 }
-
 #space{
     height: 1px;
 }
-
-
 #benefits-h2{
     font-size: 50px;
-    margin: 100px 0;
-    
+    margin: 100px 0; 
 }
-
 .card{
     padding: 40px 40px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     gap: 20px;
-    
-
 }
 .card h2{
     font-size: 70px;
     margin-bottom: 20px;
 }
-
 .card h3{
     font-size: 36px;
 }
-
 .card p{
     font-size: 24px;
     line-height: 40px;
     color: #586c7c;
 }
-
 .card a{
     width: 55%;
     height: 60px;
@@ -442,16 +337,9 @@ header .container{
     margin: 10px 0;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
-    
-    
+    align-items: center; 
 }
-
-
-
 /* REGOLE QUINTA SEZIONE */
-
 .about-us .row{
     margin: 40px 0;
 }
@@ -476,7 +364,6 @@ header .container{
     color: #9792e4;
     float: right;
 }
-
 .about-us h3{
     font-size: 44px;
     margin: 30px 0;
@@ -488,120 +375,113 @@ header .container{
     font-size: 24px;
     padding: 10px 20px;
 }
-
-
-
 /* REGOLE SESTA SEZIONE */
-
-
 .gets-started{
     background-color: #9792e4;
     font-size: 22px;
-    height: 850px;
+    /* height: 850px; */
 }
-
-/* .gets-started .row{
-    margin: 40px 0;
-} */
-
 .gets-started .container .row>div{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 35px;
-    /* margin: 50px 0; */
-
 }
 .gets-started h5{
     color: #d6d6f4;
     margin-top: 80px;
 }
-
 .gets-started h5, .gets-started a{
     font-size: 28px;
     letter-spacing: 3px;
     font-weight: normal;
-    
 }
-
 .gets-started h3{
     font-size: 40px;
 }
-
 .gets-started h2{
     font-size: 90px;
 }
-
 .gets-started p{
     font-size: 24px;
     line-height: 40px;
 }
-
 .gets-started a{
     font-weight: bold;
     padding: 30px 50px;
     margin: 20px 20px;
-
 }
-
-
-
-
-
-
-/* REGOLE DEL FOOTER */
-
+.gets-started .col div{
+    margin-bottom: 50px;
+}
+/* //............................................................................
+//.FFFFFFFFFF...OOOOOOO.......OOOOOOO.....TTTTTTTTTTTEEEEEEEEEEE.RRRRRRRRRR...
+//.FFFFFFFFFF..OOOOOOOOOO....OOOOOOOOOO...TTTTTTTTTTTEEEEEEEEEEE.RRRRRRRRRRR..
+//.FFFFFFFFFF.OOOOOOOOOOOO..OOOOOOOOOOOO..TTTTTTTTTTTEEEEEEEEEEE.RRRRRRRRRRR..
+//.FFFF.......OOOOO..OOOOO..OOOOO..OOOOO.....TTTT....EEEE........RRRR...RRRR..
+//.FFFF......FOOOO....OOOOOOOOOO....OOOOO....TTTT....EEEE........RRRR...RRRR..
+//.FFFFFFFFF.FOOO......OOOOOOOO......OOOO....TTTT....EEEEEEEEEE..RRRRRRRRRRR..
+//.FFFFFFFFF.FOOO......OOOOOOOO......OOOO....TTTT....EEEEEEEEEE..RRRRRRRRRRR..
+//.FFFFFFFFF.FOOO......OOOOOOOO......OOOO....TTTT....EEEEEEEEEE..RRRRRRRR.....
+//.FFFF......FOOOO....OOOOOOOOOO....OOOOO....TTTT....EEEE........RRRR.RRRR....
+//.FFFF.......OOOOO..OOOOO..OOOOO..OOOOO.....TTTT....EEEE........RRRR..RRRR...
+//.FFFF.......OOOOOOOOOOOO..OOOOOOOOOOOO.....TTTT....EEEEEEEEEEE.RRRR..RRRRR..
+//.FFFF........OOOOOOOOOO....OOOOOOOOOO......TTTT....EEEEEEEEEEE.RRRR...RRRR..
+//.FFFF..........OOOOOO........OOOOOO........TTTT....EEEEEEEEEEE.RRRR....RRR..
+//............................................................................ */
 footer{
     background-color: #333333;
 }
-
-
 footer div{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
-
 footer div p{
     margin: 70px 0;
-    
 }
-
 footer p{
     font-size: 20px;
     padding: 0 20px;
 }
+/* //.......................................................................
+//.TTTTTTTTTTT..AAAA.....AABBBBBBBBB..BBLL.......LLEEEEEEEEE.EETTTTTTTT..
+//.TTTTTTTTTTT.AAAAAA....AABBBBBBBBBB.BBLL.......LLEEEEEEEEE.EETTTTTTTT..
+//.TTTTTTTTTTT.AAAAAA....AABBBBBBBBBB.BBLL.......LLEEEEEEEEE.EETTTTTTTT..
+//....TTTT.....AAAAAAA...AABB....BBBB.BBLL.......LLEE............TTTT....
+//....TTTT....AAAAAAAA...AABB....BBBB.BBLL.......LLEE............TTTT....
+//....TTTT....AAAAAAAA...AABBBBBBBBBB.BBLL.......LLEEEEEEEEE.....TTTT....
+//....TTTT....AAAA.AAAA..AABBBBBBBBB..BBLL.......LLEEEEEEEEE.....TTTT....
+//....TTTT...TAAAAAAAAA..AABBBBBBBBBB.BBLL.......LLEEEEEEEEE.....TTTT....
+//....TTTT...TAAAAAAAAAA.AABB.....BBBBBBLL.......LLEE............TTTT....
+//....TTTT..TTAAAAAAAAAA.AABB.....BBBBBBLL.......LLEE............TTTT....
+//....TTTT..TTAA....AAAA.AABBBBBBBBBBBBBLLLLLLLLLLLEEEEEEEEEE....TTTT....
+//....TTTT..TTAA....AAAAAAABBBBBBBBBB.BBLLLLLLLLLLLEEEEEEEEEE....TTTT....
+//....TTTT.TTTAA.....AAAAAABBBBBBBBB..BBLLLLLLLLLLLEEEEEEEEEE....TTTT....
+//....................................................................... */
 
-
-
-
-
-
-
-
-
-
-
-
-/* VERSIONE TABLET */
-
-
-
-
+/* //................................................
+//.MMMMMM...MMMMMM....AAAAA....IIIII.NNNN...NNNN..
+//.MMMMMM...MMMMMM....AAAAA....IIIII.NNNNN..NNNN..
+//.MMMMMM...MMMMMM...AAAAAA....IIIII.NNNNN..NNNN..
+//.MMMMMMM.MMMMMMM...AAAAAAA...IIIII.NNNNNN.NNNN..
+//.MMMMMMM.MMMMMMM..AAAAAAAA...IIIII.NNNNNN.NNNN..
+//.MMMMMMM.MMMMMMM..AAAAAAAA...IIIII.NNNNNNNNNNN..
+//.MMMMMMMMMMMMMMM..AAAA.AAAA..IIIII.NNNNNNNNNNN..
+//.MMMMMMMMMMMMMMM.AAAAAAAAAA..IIIII.NNNNNNNNNNN..
+//.MMMMMMMMMMMMMMM.AAAAAAAAAAA.IIIII.NNNNNNNNNNN..
+//.MMMM.MMMMM.MMMM.AAAAAAAAAAA.IIIII.NNNN.NNNNNN..
+//.MMMM.MMMMM.MMMMAAAA....AAAA.IIIII.NNNN..NNNNN..
+//.MMMM.MMMMM.MMMMAAAA.....AAAAIIIII.NNNN..NNNNN..
+//.MMMM.MMMMM.MMMMAAAA.....AAAAIIIII.NNNN...NNNN..
+//................................................ */
 @media screen and (min-width:768px){
-
     .feature .row{
         display: flex;
         /* flex-wrap: wrap; */
         gap: 10px;
-        
-
     }
-
     .feature .col{
         width: calc((100%/3));
-
-
     }
 
     .feature .colx2{
@@ -609,31 +489,20 @@ footer p{
         background-color: #b5ddff;
         margin-bottom: 20px;
         text-align: center;
-
-
-
-
-        /* 2 */
-
     }    
-
+    /* 2 */
     .strategic h2{
         font-size: 90px;
         text-align: start;
     }
-
     /* 3 */
-
-
     .card-purple{
         padding: 50px 30px;
         display: flex;
         flex-direction: row;
         gap: 30px;
-        text-align: center;
-        
+        text-align: center; 
     }
-
     .card-purple-text{
         width: 80%;
         display: flex;
@@ -641,110 +510,249 @@ footer p{
         align-items: start;
         gap: 30px;
     }
-
     .card-purple-text p{
         text-align: initial;
-
         margin-top: 30px;
     }
-
-
-
     /* 4 */
-
     .benefits .row{
         /* width: calc((100/2)-50px); */
         display: flex;
         flex-wrap: wrap;
         gap: 40px;
-        
-        
-
     }
-
     .benefits .col{
-        width: calc(50% - 40px);
+        width: calc(50% - 20px);
         margin-bottom: 0px;
     }
-
-
     .benefits .col:nth-last-child(-n + 2){
         margin-bottom: 70px;
     }
-
-
     /* 5 */
-
-
     .about-us .row{
         display: flex;
         gap: 100px;
     }
-
     .about-us .col{
         width: calc(10%-100px);
-
     }
-
     .about-us .col2{
         width: calc(45%-100px);
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
+    #img-about-us{  
+        width: 220px;
+        min-height: 220px;
+        margin-top: 70px;
+    }
+    .about-us h3{
+        font-size: 30px;
+        margin: 30px 0;
+    }
+    .about-us .col a{
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .about-us p{
+        font-size: 18px;
+        line-height: 60px;
+        margin-bottom: 70px;
+    }
+    .about-us h2{
+        font-size: 70px;
+        margin: 60px 0 20px;
+    }
+    /* 6 */
+    .gets-started .row{
+        padding: 0 100px;
+    }
+    .gets-started h3{
+        font-size: 55px;
+    }
+    .gets-started a{
+        padding: 30px 50px;
+        margin: 20px 140px;
+    }
+    footer div{
+        align-items: center;
+    }
+    footer p{
+        width: 65%;
+    }
 }
-
-
-
-
-
-/* VERSIONE DESKTOP */
+/* //...........................................................................
+//.DDDDDDDDD....EEEEEEEEEEE..SSSSSSS....SKKK...KKKKK.KTTTTTTTTTTTPPPPPPPP....
+//.DDDDDDDDDD...EEEEEEEEEEE.ESSSSSSSS...SKKK..KKKKK..KTTTTTTTTTTTPPPPPPPPP...
+//.DDDDDDDDDDD..EEEEEEEEEEE.ESSSSSSSSS..SKKK.KKKKK...KTTTTTTTTTTTPPPPPPPPPP..
+//.DDDD...DDDD..EEEE.......EESSS..SSSS..SKKKKKKKK.......TTTT....TPPP...PPPP..
+//.DDDD....DDDD.EEEE.......EESSS........SKKKKKKK........TTTT....TPPP...PPPP..
+//.DDDD....DDDD.EEEEEEEEEE..ESSSSSS.....SKKKKKKK........TTTT....TPPPPPPPPPP..
+//.DDDD....DDDD.EEEEEEEEEE...SSSSSSSSS..SKKKKKKK........TTTT....TPPPPPPPPP...
+//.DDDD....DDDD.EEEEEEEEEE.....SSSSSSS..SKKKKKKKK.......TTTT....TPPPPPPPP....
+//.DDDD....DDDD.EEEE..............SSSSS.SKKK.KKKKK......TTTT....TPPP.........
+//.DDDD...DDDDD.EEEE.......EESS....SSSS.SKKK..KKKK......TTTT....TPPP.........
+//.DDDDDDDDDDD..EEEEEEEEEEEEESSSSSSSSSS.SKKK..KKKKK.....TTTT....TPPP.........
+//.DDDDDDDDDD...EEEEEEEEEEE.ESSSSSSSSS..SKKK...KKKKK....TTTT....TPPP.........
+//.DDDDDDDDD....EEEEEEEEEEE..SSSSSSSS...SKKK...KKKKK....TTTT....TPPP.........
+//........................................................................... */
 
 @media screen and (min-width: 1140px){
     /* REGOLE GENERALI */
-
     .container{
         margin: 0 auto;
         width: 70%;
     }
-    /* REGOLE DELLìHEADER */
+    
+    
 
-
+/* //..............................................................................
+//.HHHH...HHHH..EEEEEEEEEEE....AAAAA.....ADDDDDDDD....DEEEEEEEEEE.ERRRRRRRRR....
+//.HHHH...HHHH..EEEEEEEEEEE....AAAAA.....ADDDDDDDDD...DEEEEEEEEEE.ERRRRRRRRRR...
+//.HHHH...HHHH..EEEEEEEEEEE...AAAAAA.....ADDDDDDDDDD..DEEEEEEEEEE.ERRRRRRRRRR...
+//.HHHH...HHHH..EEEE..........AAAAAAA....ADDD...DDDD..DEEE........ERRR...RRRRR..
+//.HHHH...HHHH..EEEE.........AAAAAAAA....ADDD....DDDD.DEEE........ERRR...RRRRR..
+//.HHHHHHHHHHH..EEEEEEEEEE...AAAAAAAA....ADDD....DDDD.DEEEEEEEEE..ERRRRRRRRRR...
+//.HHHHHHHHHHH..EEEEEEEEEE...AAAA.AAAA...ADDD....DDDD.DEEEEEEEEE..ERRRRRRRRRR...
+//.HHHHHHHHHHH..EEEEEEEEEE..EAAAAAAAAA...ADDD....DDDD.DEEEEEEEEE..ERRRRRRR......
+//.HHHH...HHHH..EEEE........EAAAAAAAAAA..ADDD....DDDD.DEEE........ERRR.RRRR.....
+//.HHHH...HHHH..EEEE........EAAAAAAAAAA..ADDD...DDDDD.DEEE........ERRR..RRRR....
+//.HHHH...HHHH..EEEEEEEEEEEEEAA....AAAA..ADDDDDDDDDD..DEEEEEEEEEE.ERRR..RRRRR...
+//.HHHH...HHHH..EEEEEEEEEEEEEAA.....AAAA.ADDDDDDDDD...DEEEEEEEEEE.ERRR...RRRRR..
+//.HHHH...HHHH..EEEEEEEEEEEEEAA.....AAAA.ADDDDDDDD....DEEEEEEEEEE.ERRR....RRRR..
+//.............................................................................. */
     #hambueger{
         display: none;
     }
-
     #main-nav{
         display: block;
-
-
-
     }
+/* //................................................
+//.MMMMMM...MMMMMM....AAAAA....IIIII.NNNN...NNNN..
+//.MMMMMM...MMMMMM....AAAAA....IIIII.NNNNN..NNNN..
+//.MMMMMM...MMMMMM...AAAAAA....IIIII.NNNNN..NNNN..
+//.MMMMMMM.MMMMMMM...AAAAAAA...IIIII.NNNNNN.NNNN..
+//.MMMMMMM.MMMMMMM..AAAAAAAA...IIIII.NNNNNN.NNNN..
+//.MMMMMMM.MMMMMMM..AAAAAAAA...IIIII.NNNNNNNNNNN..
+//.MMMMMMMMMMMMMMM..AAAA.AAAA..IIIII.NNNNNNNNNNN..
+//.MMMMMMMMMMMMMMM.AAAAAAAAAA..IIIII.NNNNNNNNNNN..
+//.MMMMMMMMMMMMMMM.AAAAAAAAAAA.IIIII.NNNNNNNNNNN..
+//.MMMM.MMMMM.MMMM.AAAAAAAAAAA.IIIII.NNNN.NNNNNN..
+//.MMMM.MMMMM.MMMMAAAA....AAAA.IIIII.NNNN..NNNNN..
+//.MMMM.MMMMM.MMMMAAAA.....AAAAIIIII.NNNN..NNNNN..
+//.MMMM.MMMMM.MMMMAAAA.....AAAAIIIII.NNNN...NNNN..
+//................................................ */
+    /* 1 */
+    .feature .colx2{
+        display: flex;
+        margin-bottom: 20px;
+        text-align: center;  
+    }
+    .card-one-sect{
+        width: 50%;
+        padding: 30px 0px 0 35px;
+        text-align: start;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+    .card-one-sect h3{
+        font-size: 19px;
+        text-align: start;
+    }
+    .card-one-sect p{
+        font-size: 16px;
+        font-weight: bold;
+        color: #546777;
+        line-height: 20px;
+    }
+    .card-minor{
+        padding: 35px;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        font-size: 16px;
+        color: #586c7c;
+        font-weight: bold;
+        line-height: 34px;
+    }
+    .colx2 div:last-child{
+        width: 50%;
+        display: flex;
+        align-items: end;
+    }
+    #img-phone{
+        width: 100%;
+        vertical-align: bottom;
+    }
+    #apple-button {
+        display: block;
+        width: 75%;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        word-spacing: 2px;
+        padding: 8px 10px; 
+    }
+    /* 2 */
 
-
-
-
-
-
-
-
+    .strategic .row{
+        display: flex;
+        align-items: end;
+        gap: 50px;
+    }
+    .strategic .row>div{
+        width: calc(50% - 25px);
+    }
+    .strategic .col:last-child{
+        margin-top: 200px;
+        
+    }
+    .strategic .col:last-child img{
+        width: 70%;
+    }
+    .strategic .col:last-child h3{
+        font-size: 28px;
+    }
+    #arrow-text p{
+        font-size: 22px;
+    }
+    .strategic h2{
+        font-size: 32px;
+    }
+    /* 4 */
+    .benefits .col{
+        width: calc((100%/3) - 27px);
+        margin-bottom: 0px;
+    }
+    .benefits .col:nth-last-child(-n + 3){
+        margin-bottom: 70px;
+    }
+    /* 6 */
+    .gets-started p{
+        margin: 0 300px;
+    }
+    .gets-started a {
+        padding: 30px 50px;
+        margin: 20px 440px;
+    }
+    /* //............................................................................
+//.FFFFFFFFFF...OOOOOOO.......OOOOOOO.....TTTTTTTTTTTEEEEEEEEEEE.RRRRRRRRRR...
+//.FFFFFFFFFF..OOOOOOOOOO....OOOOOOOOOO...TTTTTTTTTTTEEEEEEEEEEE.RRRRRRRRRRR..
+//.FFFFFFFFFF.OOOOOOOOOOOO..OOOOOOOOOOOO..TTTTTTTTTTTEEEEEEEEEEE.RRRRRRRRRRR..
+//.FFFF.......OOOOO..OOOOO..OOOOO..OOOOO.....TTTT....EEEE........RRRR...RRRR..
+//.FFFF......FOOOO....OOOOOOOOOO....OOOOO....TTTT....EEEE........RRRR...RRRR..
+//.FFFFFFFFF.FOOO......OOOOOOOO......OOOO....TTTT....EEEEEEEEEE..RRRRRRRRRRR..
+//.FFFFFFFFF.FOOO......OOOOOOOO......OOOO....TTTT....EEEEEEEEEE..RRRRRRRRRRR..
+//.FFFFFFFFF.FOOO......OOOOOOOO......OOOO....TTTT....EEEEEEEEEE..RRRRRRRR.....
+//.FFFF......FOOOO....OOOOOOOOOO....OOOOO....TTTT....EEEE........RRRR.RRRR....
+//.FFFF.......OOOOO..OOOOO..OOOOO..OOOOO.....TTTT....EEEE........RRRR..RRRR...
+//.FFFF.......OOOOOOOOOOOO..OOOOOOOOOOOO.....TTTT....EEEEEEEEEEE.RRRR..RRRRR..
+//.FFFF........OOOOOOOOOO....OOOOOOOOOO......TTTT....EEEEEEEEEEE.RRRR...RRRR..
+//.FFFF..........OOOOOO........OOOOOO........TTTT....EEEEEEEEEEE.RRRR....RRR..
+//............................................................................ */
+    footer div p{
+        width: 50%;
+    }
 }
-
-
-
