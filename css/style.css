@@ -329,7 +329,7 @@ header .container{
     color: #586c7c;
 }
 .card a{
-    width: 55%;
+    width: 200px;
     height: 60px;
     font-size: 25px;
     font-weight: bold;
@@ -407,9 +407,12 @@ header .container{
     line-height: 40px;
 }
 .gets-started a{
+    
+
+    width: 350px;
     font-weight: bold;
     padding: 30px 50px;
-    margin: 20px 20px;
+    margin: 0 auto;
 }
 .gets-started .col div{
     margin-bottom: 50px;
@@ -569,8 +572,9 @@ footer p{
         font-size: 55px;
     }
     .gets-started a{
+        width: 300px;
         padding: 30px 50px;
-        margin: 20px 140px;
+        margin: 0 auto;
     }
     footer div{
         align-items: center;
@@ -731,11 +735,15 @@ footer p{
     }
     /* 6 */
     .gets-started p{
-        margin: 0 300px;
+        text-align: center;
+        min-width: 300px;
+        max-width: 500px;
+        margin: 0 auto;
     }
     .gets-started a {
+        width: 350px;
         padding: 30px 50px;
-        margin: 20px 440px;
+        margin: 0 auto;
     }
     /* //............................................................................
 //.FFFFFFFFFF...OOOOOOO.......OOOOOOO.....TTTTTTTTTTTEEEEEEEEEEE.RRRRRRRRRR...
